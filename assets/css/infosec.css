@@ -12,6 +12,15 @@
   color: var(--textColor);
 }
 
+html{
+    scroll-snap-type:y mandatory;
+}
+
+.sectionsnap{
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+
 .center-perfect {
     position: absolute;
     top: 50%;
