@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Alexandria:wght@500&family=IBM+Plex+Mono&family=Staatliches&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
 
 :root {
   --primaryAccent: #38ebe3;
@@ -14,6 +15,24 @@
 
 html{
     scroll-snap-type:y mandatory;
+}
+
+p {
+    text-align: justify !important;
+}
+
+li{
+    color:var(--secondaryAccent);
+    margin-bottom: 5px;
+}
+
+li span{
+    color:#000
+}
+
+.list-group-item.active{
+    background-color: var(--secondaryAccent)!important;
+    border-color: var(--secondaryAccent)!important;
 }
 
 .sectionsnap{
@@ -49,6 +68,10 @@ html{
   background-color: var(--bgDeeper);
 }
 
+.table-group-divider{
+    color:var(--secondaryAccent)!important;
+}
+
 .bg-ia-primary {
   background-color: var(--primaryAccent);
 }
@@ -58,7 +81,7 @@ html{
 }
 
 .bg-ia-secondary {
-  background-color: var(--secondaryAccent);
+  background-color: var(--secondaryAccent) !important;
 }
 
 .bg-ia-secondary-pattern{
@@ -160,7 +183,7 @@ html{
 }
 
 .text-ia-secondary {
-  color: var(--secondaryAccent);
+  color: var(--secondaryAccent)!important;
 }
 
 .text-deeper {
@@ -272,6 +295,10 @@ html{
     width: 100%;
 }
 
+.height100vhfixed{
+    height: 100vh!important;
+}
+
 .height100vh{
     height: 100vh;
 }
@@ -282,6 +309,10 @@ html{
 
 .height50vh {
     height: 50vh;
+}
+
+@media (min-width: 768px){
+    .height100vh{height: 150vh;}
 }
 
 .expanse-pos{

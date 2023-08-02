@@ -27,11 +27,11 @@
         referrerpolicy="no-referrer"
       />
     </head>
-    <body>
+    <body data-bs-spy="scroll" data-bs-target="#canvaspy">
       <!-- Face Page -->
 
       <header
-        class="height100vh sectionsnap text-center text-light bg-ia-secondary-pattern p-5 user-select-none"
+        class="height100vhfixed sectionsnap text-center text-light bg-ia-secondary-pattern p-5 user-select-none"
         id="facepage"
       >
         <div class="center-perfect">
@@ -48,31 +48,758 @@
       <div class="bg-deeper">
         <main>
           <!-- Page -->
-          <div class="bg-white shadow-sm height100vh sectionsnap">
+          <div class="bg-white shadow-sm height100vh sectionsnap" id="Content">
             <!-- Heading Main -->
             <h1 class="ia-display bg-ia-secondary ps-3 text-white m-0 p-3">
-              Heading
+              <div class="row">
+                <div class="col">Contents</div>
+              </div>
+            </h1>
+            <div class="p-0">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col" class="col-10 bg-ia-secondary text-white">
+                      Heading
+                    </th>
+                    <th
+                      scope="col"
+                      class="col-2 text-end bg-ia-secondary text-white"
+                    >
+                      Page No.
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="fw-bold text-uppercase">
+                    <td class="ps-2">Executive Summary</td>
+                    <th scope="row" class="text-end pe-3">1</th>
+                  </tr>
+                  <tr class="fw-bold text-uppercase table-group-divider">
+                    <td class="ps-2">Scope of Work</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td class="ps-3">External Penetration Testing</td>
+                    <th scope="row" class="text-end pe-3">2</th>
+                  </tr>
+                  <tr class="fw-bold text-uppercase table-group-divider">
+                    <td class="ps-2">Approach</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td class="ps-3">Host Discovery and Enumenration</td>
+                    <th scope="row" class="text-end pe-3">4</th>
+                  </tr>
+                  <tr>
+                    <td class="ps-3">Port and Service Enumenration</td>
+                    <th scope="row" class="text-end pe-3">4</th>
+                  </tr>
+                  <tr>
+                    <td class="ps-3">
+                      Operating System and Software Enumenration
+                    </td>
+                    <th scope="row" class="text-end pe-3">4</th>
+                  </tr>
+                  <tr>
+                    <td class="ps-3">
+                      Vurnerablity Identification and Exploitation
+                    </td>
+                    <th scope="row" class="text-end pe-3">4</th>
+                  </tr>
+                  <tr>
+                    <td class="ps-3">Escalation and Propogation</td>
+                    <th scope="row" class="text-end pe-3">5</th>
+                  </tr>
+                  <tr class="fw-bold text-uppercase table-group-divider">
+                    <td class="ps-2">Common Vurnerablity Scoring System</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td class="ps-3">Host Discovery and Enumenration</td>
+                    <th scope="row" class="text-end pe-3">8</th>
+                  </tr>
+                  <tr>
+                    <td class="ps-3">Port and Service Enumenration</td>
+                    <th scope="row" class="text-end pe-3">9</th>
+                  </tr>
+                  <tr>
+                    <td class="ps-3">
+                      Operating System and Software Enumenration
+                    </td>
+                    <th scope="row" class="text-end pe-3">10</th>
+                  </tr>
+                  <tr>
+                    <td class="ps-3">
+                      Vurnerablity Identification and Exploitation
+                    </td>
+                    <th scope="row" class="text-end pe-3">11</th>
+                  </tr>
+                  <tr>
+                    <td class="ps-3">Escalation and Propogation</td>
+                    <th scope="row" class="text-end pe-3">12</th>
+                  </tr>
+                  <tr>
+                    <td class="ps-3">Escalation and Propogation</td>
+                    <th scope="row" class="text-end pe-3">13</th>
+                  </tr>
+                  <tr class="fw-bold text-uppercase table-group-divider">
+                    <td class="ps-3">Report Overview</td>
+                    <th scope="row" class="text-end pe-3">14</th>
+                  </tr>
+                  <tr class="fw-bold text-uppercase table-group-divider">
+                    <td class="ps-3">Details of Findings</td>
+                    <th scope="row" class="text-end pe-3">15</th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="bg-white shadow-sm height100vh sectionsnap" id="ES">
+            <!-- Heading Main -->
+            <h1 class="ia-display bg-ia-secondary ps-3 text-white m-0 p-3">
+              <div class="row">
+                <div class="col">Executive Summary</div>
+                <div class="col-1 text-end">
+                  <span
+                    class="badge bg-white text-ia-secondary ia-mono fs-5 align-middle"
+                    >1</span
+                  >
+                </div>
+              </div>
             </h1>
             <div class="p-5">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Consequatur earum expedita reprehenderit eos commodi quia soluta
-                voluptates? Repellat, quas consequatur quidem voluptate ullam
-                aperiam tenetur neque porro velit eveniet tempora?
+                The main objective behind the Vulnerability Assessment &
+                Penetration Testing (VAPT) is to identify all the potential
+                loopholes within your network security system and demonstrate
+                the potential impact of those threats & loop holes by exploiting
+                them.
               </p>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Consequatur earum expedita reprehenderit eos commodi quia soluta
-                voluptates? Repellat, quas consequatur quidem voluptate ullam
-                aperiam tenetur neque porro velit eveniet tempora?
+                The necessity of Vulnerability Assessment and Penetration
+                Testing is usually disregarded by organizations; on the contrary
+                every organization is a potential target for hackers. This is
+                clearly evident after recent ransom ware attacks. Take
+                responsibility and make sure proper security initiatives are
+                taken to protect your application. The best practice is to
+                conduct a Vulnerability Assessment annually or after making
+                substantial changes to your application.
               </p>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Consequatur earum expedita reprehenderit eos commodi quia soluta
-                voluptates? Repellat, quas consequatur quidem voluptate ullam
-                aperiam tenetur neque porro velit eveniet tempora?
+                This assessment was conducted from the perspective of an
+                attacker on the Internet without any credentials collected from
+                <span class="text-ia-secondary fw-bold">COMPANYNAME</span>. This
+                report documents the assessment and associated findings. The
+                report provides systemic causes and strategic recommendations
+                for improving the security of internet facing network. It also
+                provides a detailed description of the specific risk findings
+                identified and recommendations for resolving each finding.
+              </p>
+              <p>
+                This report being a classified document due to the nature of its
+                contents, we recommend the recipients to maintain appropriate
+                <span class="text-danger fw-bolder">CONFIDENTIALITY</span> while
+                using, sharing and storing the information.
               </p>
             </div>
+          </div>
+          <div class="bg-white shadow-sm height100vh sectionsnap" id="SoW">
+            <!-- Heading Main -->
+            <h1 class="ia-display bg-ia-secondary ps-3 text-white m-0 p-3">
+              <div class="row">
+                <div class="col">Scope of Work</div>
+                <div class="col-1 text-end">
+                  <span
+                    class="badge bg-white text-ia-secondary ia-mono fs-5 align-middle"
+                    >2</span
+                  >
+                </div>
+              </div>
+            </h1>
+            <div class="p-5">
+              <div class="row">
+                <div class="col-lg col-md-12 pe-lg-5">
+                  <p>
+                    Infosec had performed this network security assessment based
+                    on the perspective of an external attacker with no knowledge
+                    of the target before engagement. The intent of this
+                    assessment was to understand the exposure of
+                    <span class="text-ia-secondary fw-bold">COMPANYNAME</span>
+                    systems to attacks from remote systems and provide
+                    recommendations to improve system security. The External
+                    VAPT was carried out from
+                    <span class="text-ia-secondary fw-bold">ddxx mmm yyyy</span>
+                    till
+                    <span class="text-ia-secondary fw-bold">ddxx mmm yyyy</span
+                    >. We had targeted the following as per the scope.
+                  </p>
+                </div>
+                <ul
+                  class="list-group d-flex justify-content-center col-lg-3 col-md-12 gap-2 bg-light p-5 rounded-3 border mb-3"
+                >
+                  <div class="row">
+                    <li class="list-group-item col-5">Subnet 1</li>
+                    <li class="list-group-item col bg-ia-secondary text-white">
+                      00.000.00.00/00
+                    </li>
+                  </div>
+                  <div class="row">
+                    <li class="list-group-item col-5">Subnet 2</li>
+                    <li class="list-group-item col bg-ia-secondary text-white">
+                      00.000.00.00/00
+                    </li>
+                  </div>
+                  <div class="row">
+                    <li class="list-group-item col-5">Subnet 3</li>
+                    <li class="list-group-item col bg-ia-secondary text-white">
+                      00.000.00.00/00
+                    </li>
+                  </div>
+                  <div class="row">
+                    <li class="list-group-item col-5">Subnet 4</li>
+                    <li class="list-group-item col bg-ia-secondary text-white">
+                      00.000.00.00/00
+                    </li>
+                  </div>
+                  <div class="row">
+                    <li class="list-group-item col-5">Subnet 5</li>
+                    <li class="list-group-item col bg-ia-secondary text-white">
+                      00.000.00.00/00
+                    </li>
+                  </div>
+                  <div class="row">
+                    <li class="list-group-item col-5">Subnet 6</li>
+                    <li class="list-group-item col bg-ia-secondary text-white">
+                      00.000.00.00/00
+                    </li>
+                  </div>
+                  <div class="row">
+                    <li class="list-group-item col-5">Subnet 7</li>
+                    <li class="list-group-item col bg-ia-secondary text-white">
+                      00.000.00.00/00
+                    </li>
+                  </div>
+                  <div class="row">
+                    <li class="list-group-item col-5">Subnet 8</li>
+                    <li class="list-group-item col bg-ia-secondary text-white">
+                      00.000.00.00/00
+                    </li>
+                  </div>
+                  <div class="row">
+                    <li class="list-group-item col-5">Subnet 9</li>
+                    <li class="list-group-item col bg-ia-secondary text-white">
+                      00.000.00.00/00
+                    </li>
+                  </div>
+                </ul>
+              </div>
+              <div>
+                <h3 class="text-ia-secondary">External Penetration Testing</h3>
+                <p>
+                  External Penetration Testing validates the security governing
+                  the external connected systems on the Internet, as well as
+                  within a Corporate Network. Controlled tests are used to gain
+                  access to Internet resources and ultimately to the DMZ which
+                  is an internal network; by going through and around firewalls
+                  from the Internet.
+                </p>
+                <p>
+                  External Penetration Testing involves the finding and
+                  exploitation of actual known and unknown vulnerabilities from
+                  the perspective of an outside attacker.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="bg-white shadow-sm height100vh sectionsnap">
+            <div class="p-5">
+              <p>
+                External Penetration Testing attempts to breach the target as an
+                unauthorized user with varying levels of access, as listed
+                below:
+              </p>
+              <ul>
+                <li>
+                  <span>Casual hacker who infiltrates a client’s systems</span>
+                </li>
+                <li>
+                  <span
+                    >Dedicated hackers who pursue specific information and work
+                    with inside information (e.g., knowledge provided by a
+                    current or terminated client employee) and via information
+                    gathered through open source intelligence. For example,
+                    attackers typically attack remote services such as: web
+                    applications, web mail systems, VPN, CRM’s, ERP’s and Citrix
+                    portals. Sunbulah uses these same techniques to
+                    “brute-force” logins and passwords to gain access to
+                    sensitive information and also specific operational
+                    activities.</span
+                  >
+                </li>
+                <li>
+                  <span
+                    >External Penetration Testing involves the finding and
+                    exploitation of known and unknown vulnerabilities</span
+                  >
+                </li>
+                <li>
+                  <span
+                    >External Penetration Testing detects weaknesses in a system
+                    or network that could allow host compromise</span
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="bg-white shadow-sm height100vh sectionsnap" id="Approach">
+            <!-- Heading Main -->
+            <h1 class="ia-display bg-ia-secondary ps-3 text-white m-0 p-3">
+              <div class="row">
+                <div class="col">Approach</div>
+                <div class="col-1 text-end">
+                  <span
+                    class="badge bg-white text-ia-secondary ia-mono fs-5 align-middle"
+                    >4</span
+                  >
+                </div>
+              </div>
+            </h1>
+            <div class="p-5">
+              <h3 class="text-ia-secondary">Host Discovery and Enumeration</h3>
+              <p>
+                Scanning and enumeration allows Sunbulah to understand their
+                environment. These scans give a base jump point to leverage
+                vulnerabilities in the various systems. Scanning is finding all
+                available TCP and UDP network services running on the targeted
+                hosts. We had used a variety of tools and techniques to identify
+                systems that are accessible over internet, by sending ICMP, TCP,
+                and UDP requests to each IP address in the target ranges and
+                determining which one responded to the requests. Enumeration is
+                discovery of services on the network to obtain a greater sense
+                of information provided by the underlying services
+              </p>
+              <h3 class="text-ia-secondary">Port and Service Enumeration</h3>
+              <p>
+                For each system that was determined to be Internet accessible /
+                responsive in the previous step, we scanned the system for open
+                TCP and UDP ports. Sunbulah had first scanned each system for
+                approximately 2,000 common services and then conducted more
+                in-depth scans across the full range of possible TCP ports.
+                Automated scanners that performed these tasks were looking for
+                valid TCP and UDP responses to the request packets that were
+                sent out to indicate that the targeted service is accessible.
+              </p>
+              <h3 class="text-ia-secondary">
+                Operating System and Software Enumeration
+              </h3>
+              <p>
+                As part of the host discovery and service enumeration process,
+                Sunbulah attempted to determine what operating system was
+                running on each targeted system, as well as the version of
+                software running on each open port. This was accomplished
+                through the use of automated tools that perform operating system
+                fingerprinting and banner grabbing. The results were manually
+                reviewed to verify the results and to fill in results that the
+                automated scanners were not able to determine.
+              </p>
+              <h3 class="text-ia-secondary">
+                Vulnerability Identification and Exploitation
+              </h3>
+              <p>
+                After thoroughly mapping out the target space, we had conducted
+                testing to identify vulnerabilities and determine if they are
+                exploitable. We had tested each running service on each Internet
+                accessible system to identify any security risks that could be
+                exploited by an attacker from the Internet. Automated tools were
+                used to perform an initial check of the environment, but a
+                majority of the testing was performed using manual techniques to
+                discover vulnerabilities and misconfigurations and to attempt to
+                exploit those issues, where possible, to gain access to systems
+                and/or to sensitive information.
+              </p>
+            </div>
+          </div>
+          <div class="bg-white shadow-sm height100vh sectionsnap">
+            <div class="p-5">
+              <h3 class="text-ia-secondary">Escalation and Propagation</h3>
+              <p>
+                In cases where exploitable vulnerabilities were identified, we
+                had attempted to leverage the access gained to check for
+                additional security weaknesses that would allow an attacker to
+                escalate privileges on the compromised system(s) and/or to push
+                further into the environment. This resulted in a realistic view
+                of the security of perimeter defenses. The results from the
+                vulnerability testing portion of the assessment are shown in the
+                detailed findings.
+              </p>
+            </div>
+          </div>
+          <div class="bg-white shadow-sm height100vh sectionsnap" id="CVSS">
+            <!-- Heading Main -->
+            <h1 class="ia-display bg-ia-secondary ps-3 text-white m-0 p-3">
+              <div class="row">
+                <div class="col">Common Vulnerability Scroing System</div>
+                <div class="col-1 text-end">
+                  <span
+                    class="badge bg-white text-ia-secondary ia-mono fs-5 align-middle"
+                    >6</span
+                  >
+                </div>
+              </div>
+            </h1>
+            <div class="p-5">
+              <p>
+                The Common Vulnerability Scoring System (CVSS) provides a way to
+                capture the principal characteristics of a vulnerability and
+                produce a numerical score reflecting its severity. The numerical
+                score can then be translated into a qualitative representation
+                (such as low, medium, high, and critical) to help organizations
+                properly assess and prioritize their vulnerability management
+                processes. Thus, CVSS is well suited as a standard measurement
+                system for industries, organizations, and governments that need
+                accurate and consistent vulnerability impact scores.
+              </p>
+              <p>CVSS affords three important benefits:</p>
+              <ul>
+                <li>
+                  <span
+                    >It provides standardized vulnerability scores. When an
+                    organization uses a common algorithm for scoring
+                    vulnerabilities across all IT platforms, it can leverage a
+                    single vulnerability management policy defining the maximum
+                    allowable time to validate and remediate a given
+                    vulnerability.
+                  </span>
+                </li>
+                <li>
+                  <span
+                    >It provides an open framework. Users may be confused when a
+                    vulnerability is assigned an arbitrary score by a third
+                    party. With CVSS, the individual characteristics used to
+                    derive a score are transparent.</span
+                  >
+                </li>
+                <li>
+                  <span>
+                    CVSS helps prioritize risk. When the environmental score is
+                    computed, the vulnerability becomes contextual to each
+                    organization, and helps provide a better understanding of
+                    the risk posed by a vulnerability to the organization.
+                  </span>
+                </li>
+              </ul>
+              <p>
+                Since its initial release in 2004, CVSS has enjoyed widespread
+                adoption. In September 2007, CVSS v2.0 was adopted as part of
+                the Payment Card Industry Data Security Standard (PCI DSS). In
+                order to comply with PCI DSS, merchants processing credit cards
+                must demonstrate that none of their computing systems has a
+                vulnerability with a CVSS score greater than or equal to 4.0. In
+                2007 NIST included CVSS v2.0 as part of their Security Content
+                Automation Protocol (SCAP).In April 2011, CVSS v2.0 was formally
+                adopted as an international standard for scoring
+                vulnerabilities.
+              </p>
+              <h3 class="text-ia-secondary">
+                Qualitative Severity Rating Scale
+              </h3>
+              <p>
+                Sunbulah uses a qualitative approach to categorize the overall
+                risk level of issues identified based on analysis. This risk
+                scale, with its ratings of
+                <span class="text-ia-secondary fw-bold">INFORMATIONAL</span>
+                ,<span class="text-ia-secondary fw-bold">LOW</span>,
+                <span class="text-ia-secondary fw-bold">MEDIUM</span>,
+                <span class="text-ia-secondary fw-bold">HIGH</span> and
+                <span class="text-ia-secondary fw-bold">CRITICAL</span>
+                represents the degree of level of risk the organization is
+                exposed to if the given vulnerability is successfully exploited.
+              </p>
+            </div>
+          </div>
+          <div class="bg-white shadow-sm height100vh sectionsnap">
+            <div class="p-5">
+              <div class="d-flex justify-content-center">
+                <table class="table w-50 justify-content-center">
+                  <thead>
+                    <tr>
+                      <th scope="col" class="bg-ia-secondary col-6 text-white">
+                        Rating
+                      </th>
+                      <th
+                        scope="col"
+                        class="bg-ia-secondary col-6 text-center text-white"
+                      >
+                        CVSS Score
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th>Informational</th>
+                      <td class="text-center">0</td>
+                    </tr>
+                    <tr>
+                      <th>Low</th>
+                      <td class="text-center">0.1 - 3.9</td>
+                    </tr>
+                    <tr>
+                      <th>Medium</th>
+                      <td class="text-center">4.0 - 6.9</td>
+                    </tr>
+                    <tr>
+                      <th>High</th>
+                      <td class="text-center">7.0 - 8.9</td>
+                    </tr>
+                    <tr>
+                      <th>Critical</th>
+                      <td class="text-center">9.0 - 10.9</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <h5 class="text-ia-secondary">
+                Severity Level:
+                <span class="text-uppercase text-danger">Critical</span>
+              </h5>
+              <p>
+                Vulnerabilities that score in the critical range usually have
+                most of the following characteristics:
+              </p>
+              <ul class="fw-bold">
+                <li>
+                  <span>
+                    Exploitation of the vulnerability likely results in
+                    root-level compromise of servers or infrastructure devices.
+                  </span>
+                </li>
+                <li>
+                  <span>
+                    Exploitation is usually straightforward, in the sense that
+                    the attacker does not need any special authentication
+                    credentials or knowledge about individual victims, and does
+                    not need to persuade a target user, for example via social
+                    engineering, into performing any special functions.
+                  </span>
+                </li>
+              </ul>
+              <p>
+                For critical vulnerabilities, is advised that you patch or
+                upgrade as soon as possible, unless have other mitigating
+                measures in place.
+              </p>
+              <h5 class="text-ia-secondary">
+                Severity Level:
+                <span class="text-uppercase text-warning">High</span>
+              </h5>
+              <p>
+                Vulnerabilities that score in the high range usually have some
+                of the following characteristics:
+                <span class="fw-bold"
+                  >The vulnerability is difficult to exploit. Exploitation could
+                  result in elevated privileges.</span
+                >
+              </p>
+              <p>
+                Exploitation could result in a significant data loss or
+                downtime.
+              </p>
+            </div>
+          </div>
+          <div class="bg-white shadow-sm height100vh sectionsnap">
+            <div class="p-5">
+              <h5 class="text-ia-secondary">
+                Severity Level:
+                <span class="text-uppercase text-success">Medium</span>
+              </h5>
+              <p>
+                Vulnerabilities that score in the medium range usually have some
+                of the following characteristics:
+              </p>
+              <ul class="fw-bold">
+                <li>
+                  <span
+                    >Vulnerabilities that require the attacker to manipulate
+                    individual victims via social engineering tactics.</span
+                  >
+                </li>
+                <li>
+                  <span
+                    >Denial of service vulnerabilities that are difficult to set
+                    up.</span
+                  >
+                </li>
+                <li>
+                  <span
+                    >Exploits that require an attacker to reside on the same
+                    local network as the victim.</span
+                  >
+                </li>
+                <li>
+                  <span
+                    >Vulnerabilities where exploitation provides only very
+                    limited access.</span
+                  >
+                </li>
+                <li>
+                  <span
+                    >Vulnerabilities that require user privileges for successful
+                    exploitation.
+                  </span>
+                </li>
+              </ul>
+              <h5 class="text-ia-secondary">
+                Severity Level:
+                <span class="text-uppercase text-primary">Low</span>
+              </h5>
+              <p>
+                Vulnerabilities in the low range typically have very little
+                impact on an organization's business. Exploitation of such
+                vulnerabilities usually requires local or physical system
+                access.
+              </p>
+              <h5 class="text-ia-secondary">
+                Severity Level:
+                <span class="text-uppercase text-info">Informational</span>
+              </h5>
+              <p>
+                This issue does not indicate a violation of the law, guidance,
+                internal policies, or the absence of a key control. However, an
+                Informational finding is something for management to consider
+                enhancing their Information Security Program
+              </p>
+            </div>
+          </div>
+
+          <div class="bg-white shadow-sm height100vh sectionsnap" id="RO">
+            <!-- Heading Main -->
+            <h1 class="ia-display bg-ia-secondary ps-3 text-white m-0 p-3">
+              <div class="row">
+                <div class="col">Report Overview</div>
+                <div class="col-1 text-end">
+                  <span
+                    class="badge bg-white text-ia-secondary ia-mono fs-5 align-middle"
+                    >10</span
+                  >
+                </div>
+              </div>
+            </h1>
+            <div class="p-5">
+              <p>The VAPT has produced findings as summarized below:</p>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col" class="bg-ia-secondary text-white col-2">
+                      ID
+                    </th>
+                    <th scope="col" class="bg-ia-secondary text-white col">
+                      Vulnerability
+                    </th>
+                    <th
+                      scope="col"
+                      class="bg-ia-secondary text-white col-3 text-center"
+                    >
+                      Severity
+                    </th>
+                    <th
+                      scope="col"
+                      class="bg-ia-secondary text-white col-1 text-center"
+                    >
+                      CVSS
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th>V-001</th>
+                    <td>Sophos Management Access exposed to Internet</td>
+                    <td class="text-center">High</td>
+                    <td class="text-center">8</td>
+                  </tr>
+                  <tr>
+                    <th>V-002</th>
+                    <td>Sonicwall Management Access exposed to Internet</td>
+                    <td class="text-center">High</td>
+                    <td class="text-center">8</td>
+                  </tr>
+                  <tr>
+                    <th>V-003</th>
+                    <td>PHP 7.4.x < 7.4.11 Multiple Vulnerabilities</td>
+                    <td class="text-center">Medium</td>
+                    <td class="text-center">6</td>
+                  </tr>
+                  <tr>
+                    <th>V-004</th>
+                    <td>NGINX UP TO 1.18.0 HTTP REQUEST REQUEST SMUGGLING</td>
+                    <td class="text-center">Critical</td>
+                    <td class="text-center">9</td>
+                  </tr>
+                  <tr>
+                    <th>V-005</th>
+                    <td>Default Webserver Configuration</td>
+                    <td class="text-center">Medium</td>
+                    <td class="text-center">6</td>
+                  </tr>
+                  <tr>
+                    <th>V-006</th>
+                    <td>Django Administrative Login Page</td>
+                    <td class="text-center">High</td>
+                    <td class="text-center">8</td>
+                  </tr>
+                  <tr>
+                    <th>V-007</th>
+                    <td>Development Website is exposed to Internet</td>
+                    <td class="text-center">High</td>
+                    <td class="text-center">8</td>
+                  </tr>
+                  <tr>
+                    <th>V-008</th>
+                    <td>Sensitive Information disclosed</td>
+                    <td class="text-center">Low</td>
+                    <td class="text-center">3</td>
+                  </tr>
+                  <tr>
+                    <th>V-009</th>
+                    <td>
+                      NTLM authentication is used for Sharepoint Over Internet
+                    </td>
+                    <td class="text-center">Medium</td>
+                    <td class="text-center">6</td>
+                  </tr>
+                  <tr>
+                    <th>V-010</th>
+                    <td>Content Security Policy (CSP) Not Implemented</td>
+                    <td class="text-center">Informational</td>
+                    <td class="text-center">0</td>
+                  </tr>
+                  <tr>
+                    <th>V-011</th>
+                    <td>Missing X-XSS-Protection Header</td>
+                    <td class="text-center">Informational</td>
+                    <td class="text-center">0</td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class="d-flex justify-content-center">
+                <div class="bg-ia-secondary w-25" style="height: 10rem"></div>
+              </div>
+            </div>
+          </div>
+          <div class="bg-white shadow-sm height100vh sectionsnap" id="DoF">
+            <!-- Heading Main -->
+            <h1 class="ia-display bg-ia-secondary ps-3 text-white m-0 p-3">
+              <div class="row">
+                <div class="col">Details of Findings</div>
+                <div class="col-1 text-end">
+                  <span
+                    class="badge bg-white text-ia-secondary ia-mono fs-5 align-middle mt-3"
+                    >11</span
+                  >
+                </div>
+              </div>
+            </h1>
+            <div class="p-5"></div>
           </div>
         </main>
       </div>
@@ -128,13 +855,32 @@
     ></button>
   </div>
   <div class="offcanvas-body">
-    <ul>
-      <li>content1</li>
-      <li>content2</li>
-      <li>content3</li>
-      <li>content4</li>
-      <li>content5</li>
-    </ul>
+    <div class="list-group" id="canvaspy">
+      <a href="#facepage" class="list-group-item list-group-item-action"
+        >Face Page</a
+      >
+      <a href="#Content" class="list-group-item list-group-item-action"
+        >Content</a
+      >
+      <a href="#ES" class="list-group-item list-group-item-action"
+        >Executive Summary</a
+      >
+      <a href="#SoW" class="list-group-item list-group-item-action"
+        >Scope of Work</a
+      >
+      <a href="#Approach" class="list-group-item list-group-item-action"
+        >Approach</a
+      >
+      <a href="#CVSS" class="list-group-item list-group-item-action"
+        >Common Vulnerability Scoring System</a
+      >
+      <a href="#RO" class="list-group-item list-group-item-action"
+        >Report Overview</a
+      >
+      <a href="#DoF" class="list-group-item list-group-item-action"
+        >Details of Findings</a
+      >
+    </div>
   </div>
 </div>
 
