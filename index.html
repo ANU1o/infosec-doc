@@ -838,11 +838,11 @@
                   </table>
                 </div>
                 <div class="col p-2 pt-1 text-center">
-                  <div class="d-inline-block w-75">
+                  <div class="d-inline-block w-50">
                     <canvas id="myChart"></canvas>
                     <p class="text-center fst-italic mt-3">
-                      <strong>Pie chart</strong> showing occurances of severity
-                      of vulnerability.
+                      <strong>Doughnut chart</strong> showing occurances of
+                      severity of vulnerability.
                     </p>
                   </div>
                 </div>
@@ -972,7 +972,7 @@
         Chart.defaults.set("plugins.datalabels", { color: "#fff" });
         new Chart(ctx, {
           plugins: [ChartDataLabels],
-          type: "pie",
+          type: "doughnut",
           data: {
             datasets: [
               {
@@ -991,7 +991,7 @@
               legend: { labels: { font: { size: 15 } } },
               datalabels: {
                 color: "#fff",
-                font: { size: 30 },
+                font: { size: 20 },
               },
             },
           },
