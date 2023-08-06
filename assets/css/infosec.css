@@ -5,6 +5,11 @@
   --primaryAccent: #38ebe3;
   --secondaryAccent: #231273;
   --bgDeeper: #F3F5F7;
+  --informationalColor:#36A2EB;
+  --lowColor:#4BC0C0;
+  --mediumColor:#FFCD56;
+  --highColor:#FF9F40;
+  --criticalColor:#FF6384;
   --animate-duration: .5s;
   --animate-delay: .5s;
   --animate-repeat: 1;
@@ -190,16 +195,24 @@ li span{
   color: var(--bgDeeper);
 }
 
-.text-deep {
-  color: var(--bgDeep);
+.text-informational {
+    color: var(--informationalColor) !important;
 }
 
-.text-shallow {
-  color: var(--bgShallow);
+.text-low {
+    color: var(--lowColor) !important;
 }
 
-.text-shallower {
-  color: var(--bgShallower);
+.text-medium {
+    color: var(--mediumColor) !important;
+}
+
+.text-high {
+    color: var(--highColor) !important;
+}
+
+.text-critical {
+    color: var(--criticalColor) !important;
 }
 
 .nav-link:hover {
