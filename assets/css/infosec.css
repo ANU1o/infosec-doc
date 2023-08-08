@@ -53,6 +53,14 @@ li span{
     padding: 10px;
 }
 
+.center-perfect-body {
+    position:absolute;
+    margin-top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
 ::-webkit-scrollbar {
   width: 0.5em;
 }
